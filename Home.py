@@ -1,12 +1,12 @@
 import streamlit as st
-from resizemain import resize
+from resizemain import resize_main
 
 st.set_page_config(layout='wide')
 
 col1, col2 = st.columns(2)
 
 with col1:
-    image = resize('images/welcome.png')
+    image = resize_main('images/welcome.png')
     st.image(image, use_column_width='auto')
 with col2:
     st.subheader("Dit is de website van Team MYLDD")
@@ -38,7 +38,7 @@ prototype zal ook worden gepresenteerd.
     st.markdown("[Dit zijn onze projecten!](Projecten)")
 
 with col4:
-    image = resize('images/projectmanage.png')
+    image = resize_main('images/projectmanage.png')
     st.image(image, use_column_width='auto')
 
 # create whitespace
@@ -48,7 +48,7 @@ st.markdown("##")
 col5, col6 = st.columns(2)
 
 with col5:
-    image = resize('images/team.png')
+    image = resize_main('images/team.png')
     st.image(image, use_column_width='auto')
 
 with col6:

@@ -1,5 +1,5 @@
 import streamlit as st
-from resizemain import resize
+from resizemain import resize_projecten
 
 st.set_page_config(layout='wide')
 
@@ -18,7 +18,7 @@ st.markdown("##")
 col1, col2 = st.columns(2)
 
 with col1:
-    image = resize('images/accountancy.png')
+    image = resize_projecten('images/accountancy.png')
     st.image(image, use_column_width='auto')
 with col2:
     st.subheader("Accountantscontrole efficiënter door boekhoudbot")
@@ -50,7 +50,7 @@ with col3:
     st.button('Naar onderzoeksrapport', key='onderzoek_daan')
 
 with col4:
-    image = resize('images/lab.png')
+    image = resize_projecten('images/lab.png')
     st.image(image, use_column_width='auto')
 
 # create whitespace
@@ -59,7 +59,7 @@ st.markdown("##")
 col5, col6 = st.columns(2)
 
 with col5:
-    image = resize('images/parametrischontwerpen.png')
+    image = resize_projecten('images/parametrischontwerpen.png')
     st.image(image, use_column_width='auto')
 
 with col6:
@@ -101,7 +101,7 @@ with col7:
     st.button('Naar onderzoeksrapport', key='onderzoek_menno')
 
 with col8:
-    image = resize('images/gezondheid.png')
+    image = resize_projecten('images/gezondheid.png')
     st.image(image, use_column_width='auto')
 
 # create whitespace
@@ -110,7 +110,7 @@ st.markdown("##")
 col9, col10 = st.columns(2)
 
 with col9:
-    image = resize('images/oog.png')
+    image = resize_projecten('images/oog.png')
     st.image(image, use_column_width='auto')
 
 with col10:

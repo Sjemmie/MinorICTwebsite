@@ -1,5 +1,5 @@
 import streamlit as st
-from resizeteam import resize
+from resizemain import resize_team
 
 st.set_page_config(layout='wide')
 
@@ -13,7 +13,7 @@ col1, col2, col3 = st.columns(3)
 
 # create team member
 with col1:
-    image = resize('images/david.png')
+    image = resize_team('images/david.png')
     st.image(image, use_column_width=True)
     st.subheader("David Schimmel")
     st.write('''
@@ -29,7 +29,7 @@ with col1:
     ''')
 # create team member
 with col2:
-    image = resize('images/youri.png')
+    image = resize_team('images/youri.png')
     st.image(image, use_column_width=True)
     st.subheader("Youri Dibbet")
     st.write('''
@@ -43,7 +43,7 @@ with col2:
     ''')
 # create team member
 with col3:
-    image = resize('images/menno.png')
+    image = resize_team('images/menno.png')
     st.image(image, use_column_width=True)
     st.subheader("Menno Zandvliet")
     st.write('''
@@ -63,7 +63,7 @@ col4, col5, col6 = st.columns(3)
 
 # create team member
 with col4:
-    image = resize('images/daan.png')
+    image = resize_team('images/daan.png')
     st.image(image, use_column_width=True)
     st.subheader("Daan Lieftink")
     st.write('''
@@ -82,7 +82,7 @@ with col4:
 
 # create team member
 with col5:
-    image = resize('images/luuk.png')
+    image = resize_team('images/luuk.png')
     st.image(image, use_column_width=True)
     st.subheader("Luuk Rutten")
     st.write('''
