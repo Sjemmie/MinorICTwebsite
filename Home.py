@@ -15,6 +15,10 @@ with col2:
     de minor ICT voor niet ICT-ers
     ''')
 
+# create whitespace
+st.markdown("##")
+st.markdown("##")
+
 col3, col4 = st.columns(2)
 
 with col3:
@@ -31,10 +35,15 @@ Pitch je innovatie: Hierbij wordt er een Mock-up (prototype) ontwikkeld van de
 innovatie die wij zouden willen doorvoeren binnen een beroepsomgeving. Dit 
 prototype zal ook worden gepresenteerd.
     ''')
+    st.markdown("[Dit zijn onze projecten!](Projecten)")
 
 with col4:
     image = resize('images/projectmanage.png')
     st.image(image, use_column_width='auto')
+
+# create whitespace
+st.markdown("##")
+st.markdown("##")
 
 col5, col6 = st.columns(2)
 
