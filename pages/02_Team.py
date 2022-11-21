@@ -12,6 +12,10 @@ with title:
 
 col1, col2, col3 = st.columns(3)
 
+# create columns to line up 'belbin rapport' button
+rapport1, rapport2, rapport3 = st.columns(3)
+
+
 # create team member
 with col1:
     image = resize_team('images/david.png')
@@ -29,6 +33,7 @@ with col1:
     een opdracht
     ''')
 
+with rapport1:
     url = 'https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/' \
           '_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2Fproject' \
           '%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FBelbin%20David%2Epdf&parent' \
@@ -36,6 +41,7 @@ with col1:
           '%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1'
     if st.button("Belbin Rapport", key='belbindavid'):
         webbrowser.open(url)
+
 
 # create team member
 with col2:
@@ -52,6 +58,8 @@ with col2:
     positief en gericht op vernieuwing en ontwikkeling.  
     ''')
 
+# add belbin rapport
+with rapport2:
     url = 'https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/' \
           '_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments' \
           '%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FTICT-MICT%20' \
@@ -74,6 +82,8 @@ with col3:
     Menno moet z'n tekst nog maken 
     ''')
 
+# add belbin rapport
+with rapport3:
     url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
           "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
           "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FBelbin%" \
@@ -85,8 +95,12 @@ with col3:
 # add whitespace
 st.markdown('##')
 st.markdown('##')
+st.markdown('##')
 
+# create columns for team members
 col4, col5, col6 = st.columns(3)
+# create columns to line up 'belbin rapport' button
+rapport4, rapport5, rapport6 = st.columns(3)
 
 # create team member
 with col4:
@@ -107,6 +121,7 @@ with col4:
     dit onderwerp steunen. 
     ''')
 
+with rapport4:
     url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
           "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
           "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FBelbin" \
@@ -132,6 +147,7 @@ with col5:
     mij goed vinden in deze eigenschappen. 
     ''')
 
+with rapport5:
     url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
           "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
           "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2Fbelbin" \

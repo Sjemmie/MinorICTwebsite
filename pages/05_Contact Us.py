@@ -20,3 +20,4 @@ Onderwerp: {topic}
     if user_send:
         send_email(message)
         st.info('Your email was send successfully')
+        st.balloons()
