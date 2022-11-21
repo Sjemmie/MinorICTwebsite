@@ -1,5 +1,6 @@
 import streamlit as st
 from resizemain import resize_team
+import webbrowser
 
 st.set_page_config(layout='wide')
 
@@ -27,6 +28,15 @@ with col1:
     bedrijfsman. Ik ben zeer gedisciplineerd en werk graag op volgorde aan 
     een opdracht
     ''')
+
+    url = 'https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/' \
+          '_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2Fproject' \
+          '%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FBelbin%20David%2Epdf&parent' \
+          '=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor' \
+          '%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1'
+    if st.button("Belbin Rapport", key='belbindavid'):
+        webbrowser.open(url)
+
 # create team member
 with col2:
     image = resize_team('images/youri.png')
@@ -41,6 +51,15 @@ with col2:
     Als brononderzoeker en voorzitter ben ik breed geïnteresseerd, 
     positief en gericht op vernieuwing en ontwikkeling.  
     ''')
+
+    url = 'https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/' \
+          '_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments' \
+          '%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FTICT-MICT%20' \
+          '-%20Belbin%20analyse%20-%20Youri%20Dibbet%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_' \
+          'student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF'
+    if st.button("Belbin Rapport", key='belbinyouri'):
+        webbrowser.open(url)
+
 # create team member
 with col3:
     image = resize_team('images/menno.png')
@@ -54,6 +73,14 @@ with col3:
     st.write('''
     Menno moet z'n tekst nog maken 
     ''')
+
+    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+          "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
+          "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FBelbin%" \
+          "20analyse%20mz%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
+          "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1"
+    if st.button("Belbin Rapport", key='belbinmenno'):
+        webbrowser.open(url)
 
 # add whitespace
 st.markdown('##')
@@ -80,6 +107,14 @@ with col4:
     dit onderwerp steunen. 
     ''')
 
+    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+          "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
+          "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FBelbin" \
+          "%20verslag%20Daan%20Lieftink%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl" \
+          "%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1"
+    if st.button("Belbin Rapport", key='belbindaan'):
+        webbrowser.open(url)
+
 # create team member
 with col5:
     image = resize_team('images/luuk.png')
@@ -96,3 +131,11 @@ with col5:
     realistisch en goed kunnen luisteren/reflecteren. Ik kan 
     mij goed vinden in deze eigenschappen. 
     ''')
+
+    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+          "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
+          "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2Fbelbin" \
+          "%20groepsindeling%20Luuk%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl" \
+          "%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1"
+    if st.button("Belbin Rapport", key='belbinluuk'):
+        webbrowser.open(url)

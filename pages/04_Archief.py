@@ -1,4 +1,5 @@
 import streamlit as st
+import webbrowser
 
 st.set_page_config(layout='wide')
 
@@ -13,4 +14,9 @@ with col2:
     Voor de minor, hebben wij een archief aangemaakt. 
     Hierin staan onze uitwerkingen en rapportages beschreven.
     ''')
-    st. button("Naar het archief", key='archief')
+
+    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+          "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
+          "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers&ga=1"
+    if st. button("Naar het archief", key='archief'):
+        webbrowser.open(url)
