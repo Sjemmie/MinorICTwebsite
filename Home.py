@@ -1,5 +1,5 @@
 import streamlit as st
-from resize import resize
+from resizemain import resize
 
 st.set_page_config(layout='wide')
 
