@@ -1,5 +1,6 @@
 import streamlit as st
 from resizemain import resize_projecten
+import webbrowser
 
 st.set_page_config(layout='wide')
 
@@ -31,7 +32,14 @@ with col2:
      De boekhoudbot verwerkt alle regels van de belastingdienst in de boekhouding. 
      Hierdoor maakt de ondernemer ook nog eens optimaal gebruik van de belastingvoordelen. 
     ''')
-    st. button("Naar onderzoeksrapport", key='onderzoek_david')
+    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+          "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
+          "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF" \
+          "%20formaat%2FDe%20toekomst%20binnen%20accountancy%2Epdf&parent=%2Fpersonal%2Fmenno_" \
+          "zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%" \
+          "20ers%2FBeroepenveld%20analyse%2FPDF%20formaat&ga=1"
+    if st.button("Onderzoeksrapport", key='onderzoek_david'):
+        webbrowser.open(url)
 
 # create whitespace
 st.markdown("##")
@@ -47,7 +55,16 @@ with col3:
     huidige prioriteiten gekeken. Er moet een nieuw systeem komen om deze 
     problemen op te lossen.
     ''')
-    st.button('Naar onderzoeksrapport', key='onderzoek_daan')
+
+    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+          "/_layouts/15/onedrive.aspx?ct=1665743172799&or=OWA-NT&cid=826f4617-ab11-c1b1-4649-" \
+          "674b7428668b&ga=1&id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2F" \
+          "project%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%" \
+          "20formaat%2FVerkenning%20beroepsveld%20Daan%20Lieftink%2Epdf&parent=%2Fpersonal%2F" \
+          "menno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20" \
+          "ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat"
+    if st.button('Onderzoeksrapport', key='onderzoek_daan'):
+        webbrowser.open(url)
 
 with col4:
     image = resize_projecten('images/lab.png')
@@ -75,7 +92,16 @@ with col6:
     worden door de computer en de input van de opdrachtgever. Zo worden er 
     minder fouten gemaakt en kan er tijd bespaart worden.
     ''')
-    st.button('Naar onderzoeksrapport', key='onderzoek_youri')
+
+    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_" \
+          "zandvliet_student_hu_nl/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2F" \
+          "menno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor" \
+          "%20niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat%2FTICT-MICT%" \
+          "20-%20Beroepenveldanalyse%20-%20Youri%20Dibbet%2Epdf&parent=%2Fpersonal%2F" \
+          "menno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20" \
+          "niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat"
+    if st.button('Onderzoeksrapport', key='onderzoek_youri'):
+        webbrowser.open(url)
 
 # create whitespace
 st.markdown("##")
@@ -98,7 +124,15 @@ with col7:
     zorg waarbij automatische terugkoppeling van toepassing is. Hier lees je meer over in 
     mijn onderzoeksverslag.
     ''')
-    st.button('Naar onderzoeksrapport', key='onderzoek_menno')
+
+    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+          "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
+          "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF" \
+          "%20formaat%2FGZT%20en%20ICT%20%281%29%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_" \
+          "student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers" \
+          "%2FBeroepenveld%20analyse%2FPDF%20formaat&ga=1"
+    if st.button("Onderzoeksrapport", key='onderzoek_menno'):
+        webbrowser.open(url)
 
 with col8:
     image = resize_projecten('images/gezondheid.png')
@@ -122,7 +156,16 @@ with col10:
     ik dacht. Dit kan serieuze gevolgen hebben voor de ogen. In mijn rapport wordt hier 
     verder naar gekeken. 
     ''')
-    st.button('Naar onderzoeksrapport', key='onderzoek_luuk')
+
+    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+          "/_layouts/15/onedrive.aspx?ct=1667895179230&or=OWA-NT&cid=c3685b74-3801-aaa0-c3ca-" \
+          "739dbdbd09bf&ga=1&id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2F" \
+          "project%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%" \
+          "20formaat%2FRapport%20Luuk%20Rutten%20Minor%20ICT%2Epdf&parent=%2Fpersonal%2F" \
+          "menno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%" \
+          "20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat"
+    if st.button('Onderzoeksrapport', key='onderzoek_luuk'):
+        webbrowser.open(url)
 
 # create whitespace
 st.markdown("##")
