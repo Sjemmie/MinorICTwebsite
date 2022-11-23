@@ -32,14 +32,15 @@ with col2:
      De boekhoudbot verwerkt alle regels van de belastingdienst in de boekhouding. 
      Hierdoor maakt de ondernemer ook nog eens optimaal gebruik van de belastingvoordelen. 
     ''')
-    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+    url = "[Onderzoeksrapport](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
           "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
           "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF" \
           "%20formaat%2FDe%20toekomst%20binnen%20accountancy%2Epdf&parent=%2Fpersonal%2Fmenno_" \
           "zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%" \
-          "20ers%2FBeroepenveld%20analyse%2FPDF%20formaat&ga=1"
-    if st.button("Onderzoeksrapport", key='onderzoek_david'):
-        webbrowser.open(url)
+          "20ers%2FBeroepenveld%20analyse%2FPDF%20formaat&ga=1)"
+    # if st.button("Onderzoeksrapport", key='onderzoek_david'):
+    #    webbrowser.open(url)
+    st.markdown(url, unsafe_allow_html=True)
 
 # create whitespace
 st.markdown("##")
@@ -56,15 +57,16 @@ with col3:
     problemen op te lossen.
     ''')
 
-    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+    url = "[Onderzoeksrapport](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
           "/_layouts/15/onedrive.aspx?ct=1665743172799&or=OWA-NT&cid=826f4617-ab11-c1b1-4649-" \
           "674b7428668b&ga=1&id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2F" \
           "project%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%" \
           "20formaat%2FVerkenning%20beroepsveld%20Daan%20Lieftink%2Epdf&parent=%2Fpersonal%2F" \
           "menno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20" \
-          "ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat"
-    if st.button('Onderzoeksrapport', key='onderzoek_daan'):
-        webbrowser.open(url)
+          "ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat)"
+    # if st.button('Onderzoeksrapport', key='onderzoek_daan'):
+    #    webbrowser.open(url)
+    st.markdown(url, unsafe_allow_html=True)
 
 with col4:
     image = resize_projecten('images/lab.png')
@@ -93,15 +95,16 @@ with col6:
     minder fouten gemaakt en kan er tijd bespaart worden.
     ''')
 
-    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_" \
+    url = "[Onderzoeksrapport](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_" \
           "zandvliet_student_hu_nl/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2F" \
           "menno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor" \
           "%20niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat%2FTICT-MICT%" \
           "20-%20Beroepenveldanalyse%20-%20Youri%20Dibbet%2Epdf&parent=%2Fpersonal%2F" \
           "menno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20" \
-          "niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat"
-    if st.button('Onderzoeksrapport', key='onderzoek_youri'):
-        webbrowser.open(url)
+          "niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat)"
+    # if st.button('Onderzoeksrapport', key='onderzoek_youri'):
+    #    webbrowser.open(url)
+    st.markdown(url, unsafe_allow_html=True)
 
 # create whitespace
 st.markdown("##")
@@ -125,14 +128,15 @@ with col7:
     mijn onderzoeksverslag.
     ''')
 
-    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+    url = "[Onderzoeksrapport](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
           "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
           "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF" \
           "%20formaat%2FGZT%20en%20ICT%20%281%29%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_" \
           "student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers" \
-          "%2FBeroepenveld%20analyse%2FPDF%20formaat&ga=1"
-    if st.button("Onderzoeksrapport", key='onderzoek_menno'):
-        webbrowser.open(url)
+          "%2FBeroepenveld%20analyse%2FPDF%20formaat&ga=1)"
+    # if st.button("Onderzoeksrapport", key='onderzoek_menno'):
+    #    webbrowser.open(url)
+    st.markdown(url, unsafe_allow_html=True)
 
 with col8:
     image = resize_projecten('images/gezondheid.png')
@@ -157,15 +161,16 @@ with col10:
     verder naar gekeken. 
     ''')
 
-    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+    url = "[Onderzoeksrapport](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
           "/_layouts/15/onedrive.aspx?ct=1667895179230&or=OWA-NT&cid=c3685b74-3801-aaa0-c3ca-" \
           "739dbdbd09bf&ga=1&id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2F" \
           "project%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%" \
           "20formaat%2FRapport%20Luuk%20Rutten%20Minor%20ICT%2Epdf&parent=%2Fpersonal%2F" \
           "menno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%" \
-          "20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat"
-    if st.button('Onderzoeksrapport', key='onderzoek_luuk'):
-        webbrowser.open(url)
+          "20ICT%27%20ers%2FBeroepenveld%20analyse%2FPDF%20formaat)"
+    # if st.button('Onderzoeksrapport', key='onderzoek_luuk'):
+    #    webbrowser.open(url)
+    st.markdown(url, unsafe_allow_html=True)
 
 # create whitespace
 st.markdown("##")
