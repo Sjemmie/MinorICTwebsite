@@ -13,10 +13,11 @@ try:
         topic = st.selectbox("Waar gaat je vraag over?", options=(keuze_menu))
         raw_message = st.text_area("message", placeholder='Vul hier je vraag in', label_visibility='hidden')
         message = f'''\
-    Subject: New email from {user_email}
-    
-    Onderwerp: {topic}
-    {raw_message}
+    {user_email}
+    --------------
+    {topic}
+    --------------
+    {raw_message}    
     '''
 
         user_send = st.form_submit_button()
@@ -25,6 +26,6 @@ try:
             st.info('Your email was send successfully')
             st.balloons()
 except smtplib.SMTPResponseException:
-    st.info("This page is currently under review, it will be up and running momentarily."
+    st.info("This page is currently under review, we are doing everything we can to get the page working again."
             " Your message has not been delivered due to this issue. We hope you understand!")
     st.balloons()
