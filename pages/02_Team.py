@@ -34,13 +34,13 @@ with col1:
     ''')
 
 with rapport1:
-    url = 'https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/' \
+    url = '[Belbin Rapport](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/' \
           '_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2Fproject' \
           '%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FBelbin%20David%2Epdf&parent' \
           '=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor' \
-          '%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1'
-    if st.button("Belbin Rapport", key='belbindavid'):
-        webbrowser.open(url)
+          '%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1)'
+    # if st.button("Belbin Rapport", key='belbindavid'):
+    st.markdown(url, unsafe_allow_html=True)
 
 
 # create team member
@@ -60,13 +60,13 @@ with col2:
 
 # add belbin rapport
 with rapport2:
-    url = 'https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/' \
+    url = '[Belbin Rapport](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/' \
           '_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments' \
           '%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FTICT-MICT%20' \
           '-%20Belbin%20analyse%20-%20Youri%20Dibbet%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_' \
-          'student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF'
-    if st.button("Belbin Rapport", key='belbinyouri'):
-        webbrowser.open(url)
+          'student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF)'
+    # if st.button("Belbin Rapport", key='belbinyouri'):
+    st.markdown(url, unsafe_allow_html=True)
 
 # create team member
 with col3:
@@ -84,13 +84,14 @@ with col3:
 
 # add belbin rapport
 with rapport3:
-    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+    url = "[Belbin Rapport](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
           "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
           "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FBelbin%" \
           "20analyse%20mz%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
-          "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1"
-    if st.button("Belbin Rapport", key='belbinmenno'):
-        webbrowser.open(url)
+          "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1)"
+    # if st.button("Belbin Rapport", key='belbinmenno'):
+    #    webbrowser.open(url)
+    st.markdown(url, unsafe_allow_html=True)
 
 # add whitespace
 st.markdown('##')
@@ -122,13 +123,14 @@ with col4:
     ''')
 
 with rapport4:
-    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+    url = "[Belbin Rapport](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
           "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
           "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2FBelbin" \
           "%20verslag%20Daan%20Lieftink%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl" \
-          "%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1"
-    if st.button("Belbin Rapport", key='belbindaan'):
-        webbrowser.open(url)
+          "%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1)"
+    # if st.button("Belbin Rapport", key='belbindaan'):
+    #    webbrowser.open(url)
+    st.markdown(url, unsafe_allow_html=True)
 
 # create team member
 with col5:
@@ -148,10 +150,11 @@ with col5:
     ''')
 
 with rapport5:
-    url = "https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
+    url = "[Belbin Rapport](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl" \
           "/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments" \
           "%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF%2Fbelbin" \
           "%20groepsindeling%20Luuk%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl" \
-          "%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1"
-    if st.button("Belbin Rapport", key='belbinluuk'):
-        webbrowser.open(url)
+          "%2FDocuments%2Fproject%20minor%20ICT%20voor%20niet%20ICT%27%20ers%2FBelbin%2FPDF&ga=1)"
+    # if st.button("Belbin Rapport", key='belbinluuk'):
+    #    webbrowser.open(url)
+    st.markdown(url, unsafe_allow_html=True)
