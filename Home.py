@@ -7,7 +7,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     image = resize_main('images/welcome.png')
-    st.image(image, use_column_width='auto')
+    st.image(image)
 with col2:
     st.subheader("Dit is de website van Team MYLDD")
     st.info('''
