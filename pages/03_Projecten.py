@@ -174,3 +174,4 @@ with col10:
 
 # create whitespace
 st.markdown("##")
+st.info("De uiteindelijke keuze heeft betrekking op de gezonheidszorgtechnologie, maar niet het idee zoals dat hier beschreven staat")
