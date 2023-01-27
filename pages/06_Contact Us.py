@@ -1,5 +1,5 @@
 import smtplib
-
+from streamlit_extras.switch_page_button import switch_page
 import streamlit as st
 from sendmail import send_email
 
@@ -29,3 +29,6 @@ except smtplib.SMTPResponseException:
     st.info("This page is currently under review, we are doing everything we can to get the page working again."
             " Your message has not been delivered due to this issue. We hope you understand!")
     st.balloons()
+
+if st.button("Vorige Pagina"):
+    switch_page("Archief")

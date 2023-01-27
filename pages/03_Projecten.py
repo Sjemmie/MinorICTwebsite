@@ -1,8 +1,9 @@
 import streamlit as st
 from resizemain import resize_projecten
+from streamlit_extras.switch_page_button import switch_page
 import webbrowser
 
-st.set_page_config(layout='wide')
+st.set_page_config(layout='wide', initial_sidebar_state='collapsed')
 
 # center title of the page
 fill_space1, title, fill_space2 = st.columns(3)
@@ -174,4 +175,15 @@ with col10:
 
 # create whitespace
 st.markdown("##")
-st.info("De uiteindelijke keuze heeft betrekking op de gezonheidszorgtechnologie, maar niet het idee zoals dat hier beschreven staat")
+st.markdown("##")
+st.markdown("##")
+
+colp, coln = st.columns([1, 0.2])
+
+with colp:
+    if st.button("Vorige Pagina"):
+        switch_page("Team")
+
+with coln:
+    if st.button("Volgende Pagina"):
+        switch_page("De APK")

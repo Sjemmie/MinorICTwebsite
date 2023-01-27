@@ -1,7 +1,8 @@
 import streamlit as st
 from resizemain import resize_main
+from streamlit_extras.switch_page_button import switch_page
 
-st.set_page_config(layout='wide')
+st.set_page_config(layout='wide', initial_sidebar_state='collapsed')
 
 col1, col2 = st.columns(2)
 
@@ -10,9 +11,10 @@ with col1:
     st.image(image)
 with col2:
     st.subheader("Dit is de website van Team MYLDD")
-    st.info('''
+    st.write('''
     Op deze site zul je verschillende dingen terug kunnen vinden wat betreft 
-    de minor ICT voor niet ICT-ers
+    de minor ICT voor niet ICT-ers. De website wordt gebruikt als introductie van ons team en het project. Ook 
+    kun je hier een deel van archief zien met een korte toelichting op het gemaakte werk. 
     ''')
 
 # create whitespace
@@ -35,7 +37,8 @@ Pitch je innovatie: Hierbij wordt er een Mock-up (prototype) ontwikkeld van de
 innovatie die wij zouden willen doorvoeren binnen een beroepsomgeving. Dit 
 prototype zal ook worden gepresenteerd.
     ''')
-    st.markdown("[Dit zijn onze projecten!](Projecten)")
+if st.button("Dit zijn onze projecten"):
+    switch_page("Projecten")
 
 with col4:
     image = resize_main('images/projectmanage.png')
@@ -54,9 +57,10 @@ with col5:
 with col6:
     st.title('Ons team')
     st.write('''
-Wij zijn met het team een groep die graag een goed eindresultaat wilt behalen, 
+Wij zijn met het team een groep die graag een goed eindresultaat wil behalen, 
 waar wij gezamenlijk moeite in hebben gestoken en trots op kunnen zijn. Wij 
 kunnen elkaar goed aanvullen en staan allemaal open voor feedback van andere 
 groepsleden. Hierdoor hebben wij vertrouwen in een goede samenwerking en een mooi eindresultaat. 
     ''')
-    st.markdown("[Dit is ons team!](Team)")
+    if st.button("Dit is ons team"):
+        switch_page("Team")

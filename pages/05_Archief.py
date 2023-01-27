@@ -1,7 +1,8 @@
 import streamlit as st
+from streamlit_extras.switch_page_button import switch_page
 import webbrowser
 
-st.set_page_config(layout='wide')
+st.set_page_config(layout='wide', initial_sidebar_state='collapsed')
 
 col1, col2 = st.columns(2)
 
@@ -21,3 +22,18 @@ with col2:
     # if st. button("Naar het archief", key='archief'):
     #    webbrowser.open(url)
     st.markdown(url, unsafe_allow_html=True)
+
+# create whitespace
+st.markdown("##")
+st.markdown("##")
+
+# next and previous page buttons
+colp, coln = st.columns([1, 0.15])
+
+with colp:
+    if st.button("Vorige Pagina"):
+        switch_page("De APK")
+
+with coln:
+    if st.button("Volgende Pagina"):
+        switch_page("Contact Us")

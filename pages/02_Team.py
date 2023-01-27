@@ -1,8 +1,9 @@
 import streamlit as st
 from resizemain import resize_team
+from streamlit_extras.switch_page_button import switch_page
 import webbrowser
 
-st.set_page_config(layout='wide')
+st.set_page_config(layout='wide', initial_sidebar_state='collapsed')
 
 # center title of the page
 fill_space1, title, fill_space2 = st.columns(3)
@@ -158,3 +159,18 @@ with rapport5:
     # if st.button("Belbin Rapport", key='belbinluuk'):
     #    webbrowser.open(url)
     st.markdown(url, unsafe_allow_html=True)
+
+# create whitespace
+st.markdown("##")
+st.markdown("##")
+
+# next and previous page buttons
+colp, coln = st.columns([1, 0.15])
+
+with colp:
+    if st.button("Vorige Pagina"):
+        switch_page("Home")
+
+with coln:
+    if st.button("Volgende Pagina"):
+        switch_page("Projecten")
