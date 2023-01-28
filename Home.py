@@ -14,8 +14,13 @@ with col2:
     st.write('''
     Op deze site zul je verschillende dingen terug kunnen vinden wat betreft 
     de minor ICT voor niet ICT-ers. De website wordt gebruikt als introductie van ons team en het project. Ook 
-    kun je hier een deel van archief zien met een korte toelichting op het gemaakte werk. 
+    kun je hier een deel van archief zien met een korte toelichting op het gemaakte werk. De website is gemaakt 
+    in Python met behulp van de Streamlit library. Deze zet python code om in CSS/HTML code. De website kun je
+    vervolgens gratis hosten op de Streamlit servers. Voor alle code achter de website verwijs ik u graag naar de github
+    pagina 
     ''')
+    url = "[Github](https://github.com/Sjemmie/MinorICTwebsite)"
+    st.markdown(url, unsafe_allow_html=True)
 
 # create whitespace
 st.markdown("##")
