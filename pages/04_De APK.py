@@ -11,19 +11,18 @@ with col1:
     st.image(image, use_column_width=True)
 with col2:
     st.write("""
-    Het idee wat het meeste aanspraak had binnen ons groepje was het idee van Menno. De uiteindelijke keuze is dus ook 
-    het idee van Menno. Met behulp van de Design Thinking methode hebben we verder onderzoek gedaan naar EPD's in de zorg. 
-    Al vrij snel kwamen we erachter dat er al veel onderzoek is naar geweest. Ook zijn verschillende partijen er al mee 
-    bezig geweest maar is geen van hen tot een oplossing gekomen. We kwamen er achter dat we eigenlijk het wiel opnieuw 
-    aan het uitvinden waren en dus zijn we terug gegaan naar de tekentafel. Tijdens een brainstormsessie zijn we op het 
-    idee van de menselijke APK gekomen. Het is een combinatie tussen de apk van je auto en een bevolkingsonderzoek. In 
-    plaats van dat elke Nederlander zich op zijn 55e laat controleren, kan hij/zij dit bijvoorbeeld elk jaar doen. Het 
-    idee erachter is dat mensen zich bewuster worden van hun gezondheid. Dit heeft als gevolg dat wij als samenleving 
-    gezonder worden. Zo kan men langer genieten van zijn/haar pension. Ben je minder vaak ziek. Hoeft de verzekering 
-    minder uit te keren. Is je baas blij, want je hebt minder verzuim dagen. Tijdens een APK kunnen mogelijk in een 
-    vroegtijdig stadium ziektes worden opgespoord, voordat het te laat is. Zo kun je tijdig handelen. Als toevoeging 
-    aan dit idee hebben we een eerste opzet gemaakt voor een mobiele app waarmee mensen hun APK kunnen inplannen, maar 
-    ook gegevens en uitslagen kunnen inzien. 
+    Het idee met de meeste aanspraak binnen ons groepje was het idee van Menno. De uiteindelijke keuze is dus ook 
+    het idee van Menno. Met behulp van de Design Thinking methode hebben we verder onderzoek gedaan naar EPD's in de zorg.
+    Al vrij snel kwamen we erachter dat er al veel onderzoek is naar geweest, zonder doorslaand succes. We realiseerde ons
+    dat we eigenlijk het wiel opnieuw aan het uitvinden waren en dus zijn we terug gegaan naar de tekentafel. 
+    Tijdens een brainstormsessie zijn we op het idee van de menselijke APK gekomen. Het is een combinatie tussen de apk 
+    van je auto en een bevolkingsonderzoek. In plaats van dat elke Nederlander zich op zijn 55e laat controleren, kan 
+    hij/zij dit bijvoorbeeld elk jaar doen. Het idee erachter is dat mensen zich bewuster worden van hun gezondheid. 
+    Dit heeft als gevolg dat wij als samenleving gezonder worden. Zo kan men langer genieten van zijn/haar pension. 
+    Ben je minder vaak ziek. Hoeft de verzekering minder uit te keren. Is je baas blij, want je hebt minder verzuim 
+    dagen. Tijdens een APK kunnen mogelijk in een vroegtijdig stadium ziektes worden opgespoord, voordat het te laat is.
+    Zo kun je tijdig handelen. Als toevoeging aan dit idee hebben we een eerste opzet gemaakt voor een mobiele app 
+    waarmee mensen hun APK kunnen inplannen, maar ook gegevens en uitslagen kunnen inzien. 
     """)
 
 # create whitespace
