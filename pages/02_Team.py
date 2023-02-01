@@ -80,7 +80,8 @@ with col3:
     Studentnummer: 1841754
     ''')
     st.write('''
-    Menno moet z'n tekst nog maken 
+    De vormer kenmerkt zich als een gedreven wilskrachtig persoon. Vlot, impulsief en ongeduldig zijn termen die bij de
+    vormer horen. Ik kan mij hierin vinden en ben niet verbaasd over de uitslag van mijn Belbin test.
     ''')
 
 # add belbin rapport
