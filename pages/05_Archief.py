@@ -116,11 +116,15 @@ url = "[Presentaties](https://hogeschoolutrecht-my.sharepoint.com/personal/menno
       "voor%20niet%20ICT%27%20ers%2F6%2E%20Presentaties)"
 st.markdown(url, unsafe_allow_html=True)
 
+st.markdown("##")
+st.markdown("##")
+
+st.subheader("Eindpresentatie")
 st.write("""
 Naast de tussentijdse presentaties hebben wij ook een eind presentatie gemaakt. Deze is te bereiken via de onderstaande
 link. 
 """)
-url = "[Eind Presentatie](https://prezi.com/p/_gzqu2andn0s/?present=1)"
+url = "[Eind presentatie](https://prezi.com/p/_gzqu2andn0s/?present=1)"
 st.markdown(url, unsafe_allow_html=True)
 
 st.markdown("##")

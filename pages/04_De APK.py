@@ -26,7 +26,7 @@ with col2:
     toegelicht in de rapportage.
     """)
 
-    url = "[Eind Rapportage](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/_layouts/15" \
+    url = "[Eind rapportage](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/_layouts/15" \
           "/onedrive.aspx?ga=1&id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%" \
           "20niet%20ICT%27%20ers%2FRapportage%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2F" \
           "project%20minor%20ICT%20voor%20niet%20ICT%27%20ers)"
