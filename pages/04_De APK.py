@@ -22,8 +22,15 @@ with col2:
     Ben je minder vaak ziek. Hoeft de verzekering minder uit te keren. Is je baas blij, want je hebt minder verzuim 
     dagen. Tijdens een APK kunnen mogelijk in een vroegtijdig stadium ziektes worden opgespoord, voordat het te laat is.
     Zo kun je tijdig handelen. Als toevoeging aan dit idee hebben we een eerste opzet gemaakt voor een mobiele app 
-    waarmee mensen hun APK kunnen inplannen, maar ook gegevens en uitslagen kunnen inzien. 
+    waarmee mensen hun APK kunnen inplannen, maar ook gegevens en uitslagen kunnen inzien. Het idee wordt verder 
+    toegelicht in de rapportage.
     """)
+
+    url = "[Eind Rapportage](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/_layouts/15" \
+          "/onedrive.aspx?ga=1&id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%20ICT%20voor%" \
+          "20niet%20ICT%27%20ers%2FRapportage%2Epdf&parent=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2F" \
+          "project%20minor%20ICT%20voor%20niet%20ICT%27%20ers)"
+    st.markdown(url, unsafe_allow_html=True)
 
 # create whitespace
 st.markdown("##")
