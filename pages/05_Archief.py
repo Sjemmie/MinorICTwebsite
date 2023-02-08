@@ -92,8 +92,7 @@ st.markdown("##")
 
 st.subheader("5. Onderdelen eindopdracht")
 st.write("""
-In dit mapje staan alle onderdelen die zijn verwerkt in het eindrapport. Het eindrapport is terug te vinden onder het 
-onderdeel 'Eindpresentatie'. 
+In dit mapje staan alle onderdelen die zijn verwerkt in het eindrapport. Het eindrapport is terug te vinden bij de APK. 
 """)
 url = "[Onderdelen eindopdracht](https://hogeschoolutrecht-my.sharepoint.com/personal/menno_zandvliet_student_hu_nl/" \
       "_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fmenno_zandvliet_student_hu_nl%2FDocuments%2Fproject%20minor%" \
